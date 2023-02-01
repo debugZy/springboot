@@ -3,4 +3,8 @@ server:
 #spring:
 #  devtools:
 #    restart:
+#懒加载
+spring:
+  main:
+    lazy-initialization: true
 #      enabled: false

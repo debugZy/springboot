@@ -2,6 +2,7 @@ package com.zy;
 
 import com.zy.config.AnotherConfiguration;
 import com.zy.config.SomeConfig;
+import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -24,6 +25,11 @@ public class Application {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+//        需要完全禁用重新启动支持devtools
+//        System.setProperty("spring.devtools.restart.enabled", "false");
+//        SpringApplication.run(Application.class, args);
+//        SpringApplication application = new SpringApplication(Application.class);
+//        application.setBannerMode(Banner.Mode.OFF);
+//        application.run(args);
     }
 }
