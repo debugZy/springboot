@@ -10,6 +10,7 @@
     <modules>
         <module>javaTest</module>
         <module>springboot</module>
+        <module>springcloud</module>
     </modules>
     <packaging>pom</packaging>
     <name>exercise</name>
