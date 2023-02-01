@@ -1,7 +1,7 @@
-package com.zy.config;
+package zy.config;
 
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class SomeConfig {
+public class AnotherConfiguration {
 }

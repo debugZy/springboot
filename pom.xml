@@ -8,8 +8,8 @@
     <artifactId>exercise</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>springboot-starter</module>
         <module>javaTest</module>
+        <module>springboot</module>
     </modules>
     <packaging>pom</packaging>
     <name>exercise</name>

@@ -1,4 +1,4 @@
-package com.zy.service.impl;
+package zy.service.impl;
 
 import com.zy.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;

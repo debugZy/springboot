@@ -1,4 +1,4 @@
-package com.zy.service;
+package zy.service;
 
 public interface AccountService {
 }
